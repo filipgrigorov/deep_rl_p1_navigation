@@ -39,6 +39,12 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
+3. Make sure pytorch (appropriate for cuda and cudnn versions) is installed.
+
+`pip install torch===1.7.1 torchvision===0.8.2 torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html`
+`pip install mlagents`
+`pip install unityagents`
+
 ### Instructions to train
 
 Follow the instructions in `Navigation.ipynb` to get started with training the agent! The **`run()`** contains the training loop and **`play()`** contains the playing loop.
